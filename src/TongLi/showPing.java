@@ -172,7 +172,7 @@ public class showPing extends JFrame {
 		HostPointShow.setText(P.getStrHostPoint());
 		HostPointShow.setHorizontalAlignment(SwingConstants.CENTER);
 //		HostPointShow.setFont(new Font("Microsoft YaHei", Font.BOLD, 50));
-		HostPointShow.setFont(new Font("Microsoft YaHei", Font.BOLD, 90));
+		HostPointShow.setFont(new Font("Microsoft YaHei", Font.BOLD, 100));
 		HostPointShow.setForeground(Color.GREEN);
 //		HostPointShow.setBounds(65, -12, 98, 79);
 //		HostPointShow.setBounds(15, 30, 250, 150);
@@ -191,7 +191,7 @@ public class showPing extends JFrame {
 		GuestPointShow.setForeground(Color.GREEN);
 		GuestPointShow.setHorizontalAlignment(SwingConstants.CENTER);
 //		GuestPointShow.setFont(new Font("Microsoft YaHei", Font.BOLD, 50));
-		GuestPointShow.setFont(new Font("Microsoft YaHei", Font.BOLD, 90));
+		GuestPointShow.setFont(new Font("Microsoft YaHei", Font.BOLD, 100));
 //		GuestPointShow.setBounds(235, -12, 74, 79);
 		GuestPointShow.setBounds(455, 50, 455, 100);
 		contentPane.add(GuestPointShow);
@@ -205,7 +205,7 @@ public class showPing extends JFrame {
 		
 		
 		JLabel lblNewLabel_1 = new JLabel("犯规:");
-		lblNewLabel_1.setForeground(Color.WHITE);
+		lblNewLabel_1.setForeground(Color.RED);
 		lblNewLabel_1.setHorizontalAlignment(SwingConstants.RIGHT);
 		lblNewLabel_1.setFont(new Font("Microsoft YaHei", Font.PLAIN,
 				xiaWordsize));
@@ -213,21 +213,21 @@ public class showPing extends JFrame {
 		contentPane.add(lblNewLabel_1);
 
 		JLabel label = new JLabel("暂停:");
-		label.setForeground(Color.WHITE);
+		label.setForeground(Color.RED);
 		label.setHorizontalAlignment(SwingConstants.RIGHT);
 		label.setFont(new Font("Microsoft YaHei", Font.PLAIN, xiaWordsize));
 		label.setBounds(200, bottomLableY, bottomLableWeight, bottomLableHeight);
 		contentPane.add(label);
 
 		JLabel label_1 = new JLabel("犯规:");
-		label_1.setForeground(Color.WHITE);
+		label_1.setForeground(Color.RED);
 		label_1.setHorizontalAlignment(SwingConstants.CENTER);
 		label_1.setFont(new Font("Microsoft YaHei", Font.PLAIN, xiaWordsize));
 		label_1.setBounds(570, bottomLableY, bottomLableWeight, bottomLableHeight);
 		contentPane.add(label_1);
 
 		JLabel label_2 = new JLabel("暂停:");
-		label_2.setForeground(Color.WHITE);
+		label_2.setForeground(Color.RED);
 		label_2.setHorizontalAlignment(SwingConstants.CENTER);
 		label_2.setFont(new Font("Microsoft YaHei", Font.PLAIN, xiaWordsize));
 		label_2.setBounds(750, bottomLableY, bottomLableWeight, bottomLableHeight);
@@ -255,7 +255,7 @@ public class showPing extends JFrame {
 		// 主队犯规数设置
 		HostFoulShow.setText(P.getStrHostFoul());
 		HostFoulShow.setHorizontalAlignment(SwingConstants.CENTER);
-		HostFoulShow.setForeground(Color.WHITE);
+		HostFoulShow.setForeground(Color.RED);
 		HostFoulShow.setFont(new Font("Microsoft YaHei", Font.PLAIN,
 				xiaWordsize));
 		HostFoulShow.setBounds(95, bottomLableY, bottomLableWeight, bottomLableHeight);
@@ -264,7 +264,7 @@ public class showPing extends JFrame {
 		// 主队暂停数设置
 		HostPasueShow.setText(P.getStrHostPasue());
 		HostPasueShow.setHorizontalAlignment(SwingConstants.CENTER);
-		HostPasueShow.setForeground(Color.WHITE);
+		HostPasueShow.setForeground(Color.RED);
 		HostPasueShow.setFont(new Font("Microsoft YaHei", Font.PLAIN,
 				xiaWordsize));
 		HostPasueShow.setBounds(277, bottomLableY, bottomLableWeight, bottomLableHeight);
@@ -273,7 +273,7 @@ public class showPing extends JFrame {
 		// 客队犯规数设置
 		GuestFoulShow.setText(P.getStrGuestFoul());
 		GuestFoulShow.setHorizontalAlignment(SwingConstants.CENTER);
-		GuestFoulShow.setForeground(Color.WHITE);
+		GuestFoulShow.setForeground(Color.RED);
 		GuestFoulShow.setFont(new Font("Microsoft YaHei", Font.PLAIN,
 				xiaWordsize));
 		GuestFoulShow.setBounds(630, bottomLableY, bottomLableWeight, bottomLableHeight);
@@ -282,7 +282,7 @@ public class showPing extends JFrame {
 		// 客队暂停数设置
 		GuestPasueShow.setText(P.getStrGuestPasue());
 		GuestPasueShow.setHorizontalAlignment(SwingConstants.CENTER);
-		GuestPasueShow.setForeground(Color.WHITE);
+		GuestPasueShow.setForeground(Color.RED);
 		GuestPasueShow.setFont(new Font("Microsoft YaHei", Font.PLAIN,
 				xiaWordsize));
 		GuestPasueShow.setBounds(810, bottomLableY, bottomLableWeight, bottomLableHeight);

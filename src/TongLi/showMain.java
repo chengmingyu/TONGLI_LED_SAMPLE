@@ -137,7 +137,7 @@ public class showMain {
 		final String strTitle = "抚顺通力 显示屏 比分控制台            V1.0";
 		frame = new JFrame();
 		frame.setTitle(strTitle);
-		frame.setBounds(100, 100, 450, 597);
+		frame.setBounds(400, 400, 450, 597);
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		// frame.setUndecorated(false);
 		frame.setResizable(false);
